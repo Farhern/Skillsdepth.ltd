@@ -4,6 +4,8 @@ import { HiMenuAlt1, HiX } from "react-icons/hi";
 import MobileNavLinks from './MobileNavLinks';
 import NavLink from './NavLink';
 import { motion } from "framer-motion";
+// import { Link } from 'react-scroll';
+import { Link, Outlet } from 'react-router-dom';
 
 const Navbar = () => {
     const [toggle, setToggle] = useState(false);
@@ -17,14 +19,17 @@ const Navbar = () => {
       }, [active]);
 
   return (
-    <div className='fixed w-full top-0 left-0 z-20'>
+    <>
+        <div className='fixed w-full top-0 left-0 z-20'>
       <div>
         <div className='container mx-auto py-4 flex items-center justify-between px-2'>
             <div className='flex items-center gap-4'>
             <HiMenuAlt1 className='text-3xl sm:hidden cursor-pointer' onClick={() => setToggle(true)} />
-            <div className='text-xl text-teal-500 uppercase tracking-wide font-bold'>
+            <Link to="/">
+            <div className='text-xl text-teal-500 uppercase tracking-wide font-bold cursor-pointer'>
                 AdvancedSkills Hub
             </div>
+            </Link>
             </div>
             <div className='sm:flex items-center hidden'>
                 {navLinks.map((navLink) => {
@@ -59,6 +64,10 @@ const Navbar = () => {
         </div>
       </div>
     </div>
+
+    <Outlet />
+    </>
+
   )
 }
 

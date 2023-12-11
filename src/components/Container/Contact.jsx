@@ -1,9 +1,10 @@
-import React from 'react'
+import React from 'react';
+import { Link } from 'react-scroll';
 
 const Contact = () => {
   return (
-    <div id='contact'>
-      
+    <div className='section' id='contact'>
+      <Link to="/Footer"></Link>
     </div>
   )
 }
