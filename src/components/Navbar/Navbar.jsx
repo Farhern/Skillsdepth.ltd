@@ -5,7 +5,7 @@ import MobileNavLinks from './MobileNavLinks';
 import NavLink from './NavLink';
 import { motion } from "framer-motion";
 // import { Link } from 'react-scroll';
-import { Link, Outlet } from 'react-router-dom';
+import { Outlet } from 'react-router-dom';
 
  const Navbar = () => {
   const [toggle, setToggle] = useState(false);
@@ -33,11 +33,11 @@ import { Link, Outlet } from 'react-router-dom';
              <div className='flex items-center gap-4'>
              <HiMenuAlt1 className='text-3xl sm:hidden cursor-pointer' 
              onClick={() => setToggle(true)} />
-             <Link to="/">
+             <a href="/">
              <div className='text-xl text-teal-500 uppercase tracking-wide font-bold cursor-pointer'>
                  AdvancedSkills Hub
              </div>
-             </Link>
+             </a>
              </div>
              <div className='sm:flex items-center hidden'>
                  {navLinks.map((navLink) => {

@@ -1,9 +1,9 @@
 import React from "react";
-import { Link } from "react-scroll";
+import { HashLink } from "react-router-hash-link";
 const MobileNavLinks = ({ setToggle, href, link }) => {
   return (
     <li className="list-none cursor-pointer mr-8">
-      <Link
+      <HashLink
         to={href}
         spy={true}
         smooth={true}
@@ -13,7 +13,7 @@ const MobileNavLinks = ({ setToggle, href, link }) => {
         onClick={(prev) => setToggle(!prev)}
       >
         {link}
-      </Link>
+      </HashLink>
     </li>
   );
 };

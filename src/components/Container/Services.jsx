@@ -1,7 +1,9 @@
 import React from 'react';
+//import { Link } from 'react-router-dom';
 
 const Services = () => {
   return (
+    //<Link to="/services">
     <div className='section' id='services'>
       <div className='text-center'>
         <div className="sm:text-3xl text-2xl font-bold mb-5">
@@ -15,11 +17,17 @@ const Services = () => {
            <p className="text-sm text-gray-700 leading-7 max-w-[700px] mx-auto mt-2">
            Ready to unlock your full potential? Browse our course catalog today and find the perfect fit for your career goals.
            </p>
-           <button className="py-3 px-6 text-sm border border-solid border-teal-500 mt-3 rounded-lg font-bold hover:bg-teal-500 duration-100 ease-in-out">
-            Know More
+           <button className="py-3 px-6 text-sm border border-solid border-teal-500 mt-5 mr-3 rounded-lg font-bold hover:bg-teal-500 duration-100 ease-in-out">
+            Courses
             </button>
+            <a href="/othercourses">
+            <button className="py-3 px-6 text-sm border border-solid border-teal-500 mt-5 rounded-lg font-bold hover:bg-teal-500 duration-100 ease-in-out">
+            Other Services
+            </button>
+            </a>
       </div>
     </div>
+    //</Link>
   )
 };
 

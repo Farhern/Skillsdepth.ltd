@@ -4,15 +4,15 @@ import Footer from '../Container/Footer';
 const AboutPage = () => {
   return (
     <>
-            <div className='section' id='aboutpage'>
+     <div className='section' id='aboutpage'>
       <div>
-        <h1 className='text-center font-bold'>VISION</h1>
+        <h1 className='text-center font-bold text-xl'>VISION</h1>
         <p className="text-sm text-gray-700 leading-7 max-w-[700px] mx-auto mt-2">
         Our vision is to become the preferred training provider in Kenya and the region. We
         aim to be the go-to institution for individuals seeking high-quality training and
         development opportunities.
         </p>
-        <h1 className='text-center font-bold mt-3'>MISION</h1>
+        <h1 className='text-center font-bold mt-3 text-xl'>MISION</h1>
         <p className="text-sm text-gray-700 leading-7 max-w-[700px] mx-auto mt-2">
         Our mission is to address the skills gap within the country's workforce and provide
         solutions to real-world challenges. We achieve this through rigorous research and the
@@ -20,7 +20,7 @@ const AboutPage = () => {
         empower individuals and organizations with the skills and knowledge needed for
         success.
         </p>
-        <h1 className='text-center font-bold mt-3'>CORE VALUES</h1>
+        <h1 className='text-center font-bold mt-3 text-xl'>CORE VALUES</h1>
         <p className="text-sm text-gray-700 leading-7 max-w-[700px] mx-auto mt-3">
         At <span className='font-bold text-black'>AdvancedSkills Hub</span>, we hold the following core values in high regard:
         </p>

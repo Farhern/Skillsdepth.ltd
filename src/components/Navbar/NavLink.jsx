@@ -1,9 +1,9 @@
 import React from "react";
-import { Link } from "react-scroll";
+import { HashLink } from "react-router-hash-link";
 const NavLink = ({ href, link }) => {
   return (
     <li className="list-none cursor-pointer mr-8">
-      <Link
+      <HashLink
         to={href}
         spy={true}
         smooth={true}
@@ -12,7 +12,7 @@ const NavLink = ({ href, link }) => {
         className="font-bold transition-all duration-300"
       >
         {link}
-      </Link>
+      </HashLink>
     </li>
   );
 };
