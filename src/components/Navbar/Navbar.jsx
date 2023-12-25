@@ -4,7 +4,8 @@ import { HiMenuAlt1, HiX } from "react-icons/hi";
 import MobileNavLinks from './MobileNavLinks';
 import NavLink from './NavLink';
 import { motion } from "framer-motion";
-// import { Link } from 'react-scroll';
+// import logo from "../../assets/logo.jpg";
+import skillsedge2 from "../../assets/skillsedge2.png";
 import { Outlet } from 'react-router-dom';
 
  const Navbar = () => {
@@ -34,8 +35,12 @@ import { Outlet } from 'react-router-dom';
              <HiMenuAlt1 className='text-3xl sm:hidden cursor-pointer' 
              onClick={() => setToggle(true)} />
              <a href="/">
-             <div className='text-xl text-teal-500 uppercase tracking-wide font-bold cursor-pointer'>
-                 AdvancedSkills Hub
+             <div className='text-xl ml-7 cursor-pointer'>
+                 <img 
+                 className='w-20 h-10'
+                 src={skillsedge2} 
+                 alt="" 
+                 />
              </div>
              </a>
              </div>
@@ -45,7 +50,7 @@ import { Outlet } from 'react-router-dom';
                  })}
              </div>
              <button className="py-2 px-4 font-bold text-sm border border-solid rounded-lg border-gray">
-                Sign Up
+                Courses
              </button>
              {toggle && (
              <motion.div

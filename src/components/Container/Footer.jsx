@@ -62,8 +62,8 @@ const Footer = () => {
         <div>
           <div className="font-bold mb-6">Follow us</div>
           <div className="text-sm mb-4">P.O BOX 328-70100, GARISSA</div>
-          <div className="text-sm mb-4">ADVANCEDSKILLSLIMITED@GMAIL.COM</div>
-          <div className="text-sm">TEL NO. 0722231522</div>
+          <div className="text-sm mb-4">SKILLSEDGETRAININGLTD@GMAIL.COM</div>
+          <div className="text-sm">TEL NO. 0722718510/0722231522</div>
           <div className="flex gap-4 mt-4">
             <a href="/" className="hover:scale-110 text-xl">
               <BsFacebook />

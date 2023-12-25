@@ -15,7 +15,7 @@ const Home = () => {
               Providing <br /> modern and practical <br /> training solutions
             </div>
             <p className='text-sm leading-7 text-gray-500 max-w-sm'>
-            AdvancedSkills Hub is
+            Skillsedge is
             dedicated to creating a positive impact by nurturing the skills and talents of the next generation of
             professionals.
             </p>
