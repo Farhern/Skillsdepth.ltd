@@ -1,5 +1,5 @@
 import React from 'react';
-import Footer from '../Container/Footer';
+import Copyright from '../Container/Copyright';
 
 const AboutPage = () => {
   return (
@@ -56,7 +56,7 @@ const AboutPage = () => {
       </div>
      
     </div>
-    <Footer />
+    <Copyright />
     </>
 
      

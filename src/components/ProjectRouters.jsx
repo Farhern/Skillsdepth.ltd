@@ -4,6 +4,7 @@ import About from './Container/About';
 import Services from './Container/Services';
 import Contact from './Container/Contact';
 import Footer from './Container/Footer';
+import Copyright from './Container/Copyright';
 
 const ProjectRouters = () => {
   return (
@@ -13,6 +14,7 @@ const ProjectRouters = () => {
       <Services />
       <Contact />
       <Footer />
+      <Copyright />
     </div>
   );
 }

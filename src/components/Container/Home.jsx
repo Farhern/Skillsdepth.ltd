@@ -1,5 +1,5 @@
 import React from 'react';
-import hero from "../../assets/hero.png";
+import home from "../../assets/home.png";
 
 const Home = () => {
   return (
@@ -23,8 +23,11 @@ const Home = () => {
               <button className="px-6 py-3 font-bold text-white bg-teal-500 rounded-lg mr-4 text-sm">Learn More</button>
             </div>
           </div>
-          <div  className='md:w-[60%]'>
-            <img className='rounded-sm' src={hero} alt="" />
+          <div  className='md:w-[60%] mt-5'>
+            <img 
+              className='rounded-sm md:ml-10' 
+              src={home} alt="" 
+            />
           </div>
         </div>
       </div>
