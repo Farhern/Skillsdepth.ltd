@@ -6,7 +6,7 @@ const Copyright = () => {
       <span className="flex items-center">
         SKILLSEDGE &copy; {new Date().getFullYear()}.
         <span className="ml-2 font-normal">
-          Project from Kamsos. All Rights Reserved.
+          Project from Skillsedge. All Rights Reserved.
         </span>
       </span>
     </footer>

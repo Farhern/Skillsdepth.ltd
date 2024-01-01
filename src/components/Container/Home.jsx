@@ -20,13 +20,15 @@ const Home = () => {
             professionals.
             </p>
             <div className='mt-6'>
+              <a href="/home#about us">
               <button className="px-6 py-3 font-bold text-white bg-teal-500 rounded-lg mr-4 text-sm">Learn More</button>
+              </a>
             </div>
           </div>
           <div  className='md:w-[60%] mt-5'>
             <img 
               className='rounded-sm md:ml-10' 
-              src={home} alt="" 
+              src={home} alt="/" 
             />
           </div>
         </div>

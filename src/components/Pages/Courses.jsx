@@ -68,37 +68,37 @@ const Courses = () => {
             <p className='text-sm mb-3 text-gray-800'>
                 The course imparts knowledge, skills, values and attitudes to, among other competencies:
             </p>
-            <ul className='max-w-[270px] sm:max-w-[450px] mx-auto list-disc'>
+            <ul className='max-w-[225px] sm:max-w-[450px] mx-auto list-disc'>
                 <li>
-                    <p className='list-disc -ml-[5px] sm:-ml-[90px]'>
+                    <p className='list-disc -ml-[22px] sm:-ml-[90px]'>
                     Develop information systems solutions for a business.
                     </p>
                 </li>
             </ul>
-            <ul className='max-w-[270px] sm:max-w-[450px] mx-auto list-disc'>
+            <ul className='max-w-[225px] sm:max-w-[450px] mx-auto list-disc'>
                 <li>
-                    <p className='list-disc -ml-[43px] sm:-ml-[60px]'>
+                    <p className='list-disc -ml-[3px] sm:-ml-[60px]'>
                     Design and operationalize database management systems.
                     </p>
                 </li>
             </ul>
-            <ul className='max-w-[270px] sm:max-w-[450px] mx-auto list-disc'>
+            <ul className='max-w-[225px] sm:max-w-[450px] mx-auto list-disc'>
                 <li>
-                    <p className='list-disc -ml-[23px] sm:-ml-[70px]'>
+                    <p className='list-disc -ml-[4px] sm:-ml-[70px]'>
                     Design, configure and trouble shoot computer networks.
                     </p>
                 </li>
             </ul>
-            <ul className='max-w-[270px] sm:max-w-[450px] mx-auto list-disc'>
+            <ul className='max-w-[225px] sm:max-w-[450px] mx-auto list-disc'>
                 <li>
-                    <p className='list-disc -ml-[110px] sm:-ml-[275px]'>
+                    <p className='list-disc -ml-[70px] sm:-ml-[275px]'>
                        Implement ICT projects.
                     </p>
                 </li>
             </ul>
-            <ul className='max-w-[270px] sm:max-w-[450px] mx-auto list-disc'>
+            <ul className='max-w-[225px] sm:max-w-[450px] mx-auto list-disc'>
                 <li>
-                    <p className='list-disc -ml-[70px] sm:-ml-[240px]'>
+                    <p className='list-disc -ml-[30px] sm:-ml-[240px]'>
                     Manage and analyse big data.
                     </p>
                 </li>
@@ -153,44 +153,44 @@ const Courses = () => {
             <p className='text-sm mb-3 text-gray-800'>
                 The course imparts knowledge, skills, values and attitudes to, among other competencies:
             </p>
-            <ul className='max-w-[330px] sm:max-w-[450px] mx-auto list-disc'>
+            <ul className='max-w-[220px] sm:max-w-[450px] mx-auto list-disc'>
                 <li>
                     <p className='list-disc -ml-[px]'>
                     practice and promote principles of good governances within public and private entities.
                     </p>
                 </li>
             </ul>
-            <ul className='max-w-[330px] sm:max-w-[450px] mx-auto list-disc'>
+            <ul className='max-w-[220px] sm:max-w-[450px] mx-auto list-disc'>
                 <li>
                     <p className='list-disc sm:-ml-[px]'>
                     Implement and comply with legal, regulatory and ethical requirements in practice.
                     </p>
                 </li>
             </ul>
-            <ul className='max-w-[330px] sm:max-w-[450px] mx-auto list-disc'>
+            <ul className='max-w-[220px] sm:max-w-[450px] mx-auto list-disc'>
                 <li>
-                    <p className='list-disc -ml-[17px] sm:-ml-[90px]'>
+                    <p className='list-disc -ml-[35px] sm:-ml-[90px]'>
                     Ensures proper conduct and management of meetings.
                     </p>
                 </li>
             </ul>
-            <ul className='max-w-[330px] sm:max-w-[450px] mx-auto list-disc'>
+            <ul className='max-w-[220px] sm:max-w-[450px] mx-auto list-disc'>
                 <li>
-                    <p className='list-disc sm:-ml-[5px]'>
+                    <p className='list-disc -ml-[8px] sm:-ml-[5px]'>
                     Undertake consultancy and advisory services in corporate secretarial and related practices.
                     </p>
                 </li>
             </ul>
-            <ul className='max-w-[330px] sm:max-w-[450px] mx-auto list-disc'>
+            <ul className='max-w-[220px] sm:max-w-[450px] mx-auto list-disc'>
                 <li>
                     <p className='list-disc sm:-ml-[250px]'>
                     Manage boardroom dynamics.
                     </p>
                 </li>
             </ul>
-            <ul className='max-w-[330px] sm:max-w-[450px] mx-auto list-disc'>
+            <ul className='max-w-[220px] sm:max-w-[450px] mx-auto list-disc'>
                 <li>
-                    <p className='list-disc sm:-ml-[155px]'>
+                    <p className='list-disc -ml-[20px] sm:-ml-[155px]'>
                     Undertake governance and compliance audit.
                     </p>
                 </li>

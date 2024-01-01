@@ -49,9 +49,11 @@ import { Outlet } from 'react-router-dom';
                      return <NavLink key={navLink.id} {...navLink} />;
                  })}
              </div>
-             <button className="py-2 px-4 font-bold text-sm border border-solid rounded-lg border-gray">
+             <a href="/courses">
+             <button className="py-2 px-4 font-bold text-sm border border-solid hover:bg-teal-500 duration-100 rounded-lg border-gray">
                 Courses
              </button>
+             </a>
              {toggle && (
              <motion.div
                initial={{ x: -500, opacity: 0 }}

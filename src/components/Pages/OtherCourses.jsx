@@ -1,5 +1,5 @@
 import React from 'react';
-import Footer from '../Container/Footer';
+import Copyright from '../Container/Copyright';
 
 const OtherCourses = () => {
   return (
@@ -238,7 +238,7 @@ const OtherCourses = () => {
         </ul>
       </div>
     </div>
-    <Footer />
+    <Copyright />
     </>
   )
 };
