@@ -22,7 +22,7 @@ const Contact = () => {
               
                <p>
                    <iframe
-                   className='rounded-md max-w-[280px] sm:max-w-[300px] lg:max-w-[760px]'
+                   className='rounded-md max-w-[280px] sm:max-w-[320px] lg:max-w-[760px]'
                      src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15958.770623833729!2d39.6436569!3d-0.4547454!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x18204b5dc640f70f%3A0xe6754d0ccf40ee7!2shilac%20plaza!5e0!3m2!1sen!2ske!4v1703749371588!5m2!1sen!2ske"
                      width="600"
                      height="470"
@@ -36,11 +36,11 @@ const Contact = () => {
           </div>
         </div>
 
-        <div className='text-center rounded-md max-w-[280px] sm:max-w-[300px] lg:max-w-[760px]'>
+        <div className='text-center rounded-md max-w-[280px] sm:max-w-[350px] lg:max-w-[760px]'>
           
               <p>
                 <img  
-                  className='w-[90px] h-[50px] ml-[100px] sm:ml-[200px] md:ml-[250px] mb-4'
+                  className='w-[90px] h-[50px] ml-[100px] sm:ml-[300px] md:ml-[250px] mb-2'
                   src={envelope} 
                   alt="/" 
                 />
@@ -50,17 +50,17 @@ const Contact = () => {
           <div className='text-center rounded-md shadow-xl shadow-gray-400'>
             <h4 className='font-semibold mb-4'>Send Us a message</h4>
             <div className='md:flex items-center'>
-                <div className='mb-[40px] md:mb-0 md:w-1/2'>
+                <div className='mb-[40px] w-10 ml-3 sm:mb-0 md:w-1/2'>
                 <input 
-                     className="border-b-2 border-gray-600 focus:border-teal-500 outline-none"
+                     className="border-b-2 border-gray-600 sm:w-[150px] md:w-[250px] focus:border-teal-500 outline-none"
                      placeholder="First name" 
                      required 
                   />
                 </div>
 
-                <div class="md:w-1/2">
+                <div class="w-10 ml-3 mt-6 md:m-2 md:w-1/2">
                    <input 
-                      className="border-b-2 border-gray-600 focus:border-teal-500 outline-none"
+                      className="border-b-2 border-gray-600 sm:w-[150px] md:w-[250px] focus:border-teal-500 outline-none"
                       matInput 
                       placeholder="Other name" 
                     />
@@ -68,16 +68,16 @@ const Contact = () => {
             </div>
 
           <div className='md:flex mt-[60px]'>
-            <div class="mb-[40px] md:mb-0 md:w-1/2">
+            <div class="mb-[40px] sm:mb-[25px] w-10 ml-3 md:w-1/2">
                       <input 
-                         className="border-b-2 border-gray-600 focus:border-teal-500 outline-none" 
+                         className="border-b-2 border-gray-600 sm:w-[150px] md:w-[250px] focus:border-teal-500 outline-none" 
                          placeholder="Location" 
                          required 
                       />
                 </div>
-                <div class="md:w-1/2">
+                <div class="w-10 ml-3 md:w-1/2">
                       <input 
-                         className="border-b-2 border-gray-600 focus:border-teal-500 outline-none" 
+                         className="border-b-2 border-gray-600 sm:w-[150px] md:w-[250px] focus:border-teal-500 outline-none" 
                          placeholder="Phone" 
                          required 
                       />
@@ -85,7 +85,7 @@ const Contact = () => {
               </div>
             
               <br />
-              <div className='mt-[50px]'>
+              <div className='mt-[50px] sm:mt-[10px]'>
                   <div class="m-1 md:m-6">
                           <input 
                              className="border-b-2 w-full border-gray-600 focus:border-teal-500 outline-none" 
@@ -97,7 +97,7 @@ const Contact = () => {
               </div>
 
               <br />
-              <div className='mt-[40px]'>
+              <div className='mt-[40px] sm:mt-[30px]'>
                   <div class="m-1 md:m-6">
                           <input 
                              className="border-b-2 w-full border-gray-600 focus:border-teal-500 outline-none" 
@@ -111,7 +111,7 @@ const Contact = () => {
 
               <div class="text-center">
                 <a mat-flat-button 
-                className='py-3 px-6 text-sm border border-solid border-teal-500 mb-2 rounded-lg font-bold hover:bg-teal-500 duration-100 ease-in-out'
+                className='py-3 px-6 text-sm border border-solid border-teal-500 mb-3 rounded-lg font-bold hover:bg-teal-500 duration-100 ease-in-out'
                 href="mailto: Skillsedgetraining@gmail.com?subject=Mail from Skillsede" 
                 type="submit">
                   Send Message
