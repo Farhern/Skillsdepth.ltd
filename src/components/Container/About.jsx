@@ -22,7 +22,7 @@ const About = () => {
             region.
             </p>
             <Link to="/aboutpage">
-            <button className="py-3 px-6 text-sm border border-solid border-gray-500 mt-3 rounded-lg font-bold hover:bg-teal-500 duration-100 ease-in-out">
+            <button className="py-3 px-6 text-sm border border-solid border-teal-500 mt-3 rounded-lg font-bold hover:bg-teal-500 duration-100 ease-in-out">
             Know More
             </button>
             </Link>

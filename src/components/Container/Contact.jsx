@@ -1,6 +1,7 @@
 import React from 'react';
 import map from "../../assets/maps-and-flags.svg";
 import envelope from "../../assets/envelope.svg";
+//import TextField from '@mui/material/TextField';
 
 const Contact = () => {
   const iframeStyle = {
@@ -24,7 +25,7 @@ const Contact = () => {
                    className='rounded-md max-w-[280px] sm:max-w-[300px] lg:max-w-[760px]'
                      src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15958.770623833729!2d39.6436569!3d-0.4547454!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x18204b5dc640f70f%3A0xe6754d0ccf40ee7!2shilac%20plaza!5e0!3m2!1sen!2ske!4v1703749371588!5m2!1sen!2ske"
                      width="600"
-                     height="450"
+                     height="470"
                      style={iframeStyle}
                      allowFullScreen=""
                      title="Google Maps"
@@ -32,62 +33,94 @@ const Contact = () => {
                      referrerPolicy="no-referrer-when-downgrade"
                      ></iframe>
                </p>
-               
           </div>
         </div>
-        <div className=''>
-          <img 
-             className='w-[90px] h-[50px] ml-[100px] sm:ml-[200px] mb-4'
-             src={envelope} 
-             alt="/" 
-          />
-          <div className='text-center shadow-xl shadow-gray-400 ml-[100px] sm:max-w-[300px] mb-5'>
-            <h5 className='font-semibold mb-4'>Send Us a message</h5>
+
+        <div className='text-center rounded-md max-w-[280px] sm:max-w-[300px] lg:max-w-[760px]'>
+          
+              <p>
+                <img  
+                  className='w-[90px] h-[50px] ml-[100px] sm:ml-[200px] md:ml-[250px] mb-4'
+                  src={envelope} 
+                  alt="/" 
+                />
+              </p>
+          
+          
+          <div className='text-center rounded-md shadow-xl shadow-gray-400'>
+            <h4 className='font-semibold mb-4'>Send Us a message</h4>
             <div className='md:flex items-center'>
-            <div class="md:w-1/2 mb-6">
-                <mat-form-field>
-                  <input 
+                <div className='mb-[40px] md:mb-0 md:w-1/2'>
+                <input 
                      className="border-b-2 border-gray-600 focus:border-teal-500 outline-none"
-                     matInput 
                      placeholder="First name" 
                      required 
                   />
-                </mat-form-field>
-            </div>
-            <div class="md:w-1/5">
-                 <mat-form-field>
+                </div>
+
+                <div class="md:w-1/2">
                    <input 
                       className="border-b-2 border-gray-600 focus:border-teal-500 outline-none"
                       matInput 
                       placeholder="Other name" 
                     />
-                 </mat-form-field>
+                </div>
             </div>
-            </div>
+
+          <div className='md:flex mt-[60px]'>
+            <div class="mb-[40px] md:mb-0 md:w-1/2">
+                      <input 
+                         className="border-b-2 border-gray-600 focus:border-teal-500 outline-none" 
+                         placeholder="Location" 
+                         required 
+                      />
+                </div>
+                <div class="md:w-1/2">
+                      <input 
+                         className="border-b-2 border-gray-600 focus:border-teal-500 outline-none" 
+                         placeholder="Phone" 
+                         required 
+                      />
+                </div>
+              </div>
             
-            <div className='md:flex items-center mt-[70px] sm:max-w-[300px]'>
-            <div class="md:w-1/2 mb-6">
-                <mat-form-field>
-                  <input 
-                     className="border-b-2 border-gray-600 focus:border-teal-500 outline-none"
-                     matInput 
-                     placeholder="Location" 
-                     required 
-                  />
-                </mat-form-field>
-            </div>
-            <div class="md:w-1/5">
-                 <form>
-                   <input 
-                      className="border-b-2 border-gray-600 focus:border-teal-500 outline-none"
-                      matInput 
-                      placeholder="Phone Number" 
-                    />
-                 </form>
-            </div>
-            </div>
+              <br />
+              <div className='mt-[50px]'>
+                  <div class="m-1 md:m-6">
+                          <input 
+                             className="border-b-2 w-full border-gray-600 focus:border-teal-500 outline-none" 
+                             placeholder="Email" 
+                             type='email'
+                             required 
+                          />
+                  </div>
+              </div>
+
+              <br />
+              <div className='mt-[40px]'>
+                  <div class="m-1 md:m-6">
+                          <input 
+                             className="border-b-2 w-full border-gray-600 focus:border-teal-500 outline-none" 
+                             placeholder="Textarea"
+                             required 
+                          />
+                  </div>
+              </div>
+
+              <br />
+
+              <div class="text-center">
+                <a mat-flat-button 
+                className='py-3 px-6 text-sm border border-solid border-teal-500 mb-2 rounded-lg font-bold hover:bg-teal-500 duration-100 ease-in-out'
+                href="mailto: Skillsedgetraining@gmail.com?subject=Mail from Skillsede" 
+                type="submit">
+                  Send Message
+                </a>
+              </div>
+
           </div>
         </div>
+      
       </div>
     </div>
   )
