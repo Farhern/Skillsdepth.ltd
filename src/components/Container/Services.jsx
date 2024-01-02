@@ -18,12 +18,12 @@ const Services = () => {
            Ready to unlock your full potential? Browse our course catalog today and find the perfect fit for your career goals.
            </p>
            <a href='/courses'>
-           <button className="py-3 px-6 text-sm border border-solid border-teal-500 mt-5 mr-3 rounded-lg font-bold hover:bg-teal-500 duration-100 ease-in-out">
+           <button className="py-3 px-6 text-sm border border-solid border-teal-500 mt-5 mr-3 rounded-lg font-bold hover:bg-teal-500 duration-300 ease-in-out">
             Courses
             </button>
             </a>
             <a href="/othercourses">
-            <button className="py-3 px-6 text-sm border border-solid border-teal-500 mt-5 rounded-lg font-bold hover:bg-teal-500 duration-100 ease-in-out">
+            <button className="py-3 px-6 text-sm border border-solid border-teal-500 mt-5 rounded-lg font-bold hover:bg-teal-500 duration-300 ease-in-out">
             Other Services
             </button>
             </a>

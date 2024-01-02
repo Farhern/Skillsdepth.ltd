@@ -46,7 +46,7 @@ const Courses = () => {
             personnel to manage the human resource function in a dynamic and competitive environment.
             </p>
             <div className='mt-5 mb-5'>
-                <button className='bg-teal-500 rounded-md py-2 px-4 cursor-pointer'>
+                <button className='bg-teal-500 rounded-md hover:bg-teal-600 hover:shadow-lg py-2 px-4 duration-300 ease-in-out cursor-pointer'>
                     Read PDF
                 </button>
             </div>
@@ -105,7 +105,7 @@ const Courses = () => {
             </ul>
             </div>
             <div className='mt-5'>
-                <button className='bg-teal-500 rounded-md py-2 px-4 cursor-pointer'>
+                <button className='bg-teal-500 rounded-md hover:bg-teal-600 hover:shadow-lg py-2 px-4 duration-300 ease-in-out cursor-pointer'>
                     Read PDF
                 </button>
             </div>
@@ -132,7 +132,7 @@ const Courses = () => {
                 program comprises three parts including an industry-based learning.
             </p>
             <div className='mt-5 mb-5'>
-                <button className='bg-teal-500 rounded-md py-2 px-4 cursor-pointer'>
+                <button className='bg-teal-500 rounded-md hover:bg-teal-600 hover:shadow-lg py-2 px-4 duration-300 ease-in-out cursor-pointer'>
                     Read PDF
                 </button>
             </div>
@@ -197,7 +197,7 @@ const Courses = () => {
             </ul>
             </div>
             <div className='mt-5'>
-                <button className='bg-teal-500 rounded-md py-2 px-4 cursor-pointer'>
+                <button className='bg-teal-500 rounded-md hover:bg-teal-600 hover:shadow-lg py-2 px-4 cursor-pointer duration-300 ease-in-out shadow-gray-500'>
                     Read PDF
                 </button>
             </div>
@@ -220,8 +220,8 @@ const Courses = () => {
             accountants, auditors, finance managers, tax specialists and financial consultants.
             </p>
             <div className='mt-5 mb-5'>
-                <button className='bg-teal-500 rounded-md py-2 px-4 cursor-pointer'>
-                    Read PDF
+                <button className='bg-teal-500 hover:bg-teal-600 hover:shadow-lg rounded-md py-2 px-4 duration-300 ease-in-out cursor-pointer'>
+                    Read PD
                 </button>
             </div>
         </div>
@@ -244,7 +244,7 @@ const Courses = () => {
                 experience instructors.
             </p>
             <div className='mt-5 mb-5'>
-                <button className='bg-teal-500 shadow-md rounded-md py-2 px-4 cursor-pointer'>
+                <button className='bg-teal-500 hover:bg-teal-600 hover:shadow-lg rounded-md py-2 px-4 duration-300 ease-in-out cursor-pointer'>
                     Read PDF
                 </button>
             </div>

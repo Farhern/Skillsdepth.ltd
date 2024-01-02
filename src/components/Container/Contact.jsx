@@ -101,7 +101,7 @@ const Contact = () => {
                   <div class="m-1 md:m-6">
                           <input 
                              className="border-b-2 w-full border-gray-600 focus:border-teal-500 outline-none" 
-                             placeholder="Textarea"
+                             placeholder="Message"
                              required 
                           />
                   </div>
@@ -111,7 +111,7 @@ const Contact = () => {
 
               <div class="text-center">
                 <a mat-flat-button 
-                className='py-3 px-6 text-sm border border-solid border-teal-500 mb-3 rounded-lg font-bold hover:bg-teal-500 duration-100 ease-in-out'
+                className='py-3 px-6 text-sm border border-solid border-teal-500 mb-3 rounded-lg font-bold hover:bg-teal-500 duration-300 ease-in-out'
                 href="mailto: Skillsedgetraining@gmail.com?subject=Mail from Skillsede" 
                 type="submit">
                   Send Message

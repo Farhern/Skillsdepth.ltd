@@ -50,7 +50,7 @@ import { Outlet } from 'react-router-dom';
                  })}
              </div>
              <a href="/courses">
-             <button className="py-2 px-4 font-bold text-sm border border-solid border-teal-500 hover:bg-teal-500 duration-100 rounded-lg border-gray">
+             <button className="py-2 px-4 font-bold text-sm border border-solid border-teal-500 hover:bg-teal-500 duration-300 ease-in-out rounded-lg border-gray">
                 Courses
              </button>
              </a>

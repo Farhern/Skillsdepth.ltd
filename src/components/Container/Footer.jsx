@@ -39,7 +39,7 @@ const Footer = () => {
                     src={envelope} 
                     alt="/" 
                   />
-                    <span className='mt-5'>Skillsedgetraining@gmail.com</span>
+                    <span className='mt-5'>Skillsedgetrainingltd@gmail.com</span>
                 </p>
                 <p className='flex items-center'>
                   <img 

@@ -21,7 +21,9 @@ const Home = () => {
             </p>
             <div className='mt-6'>
               <a href="/home#about us">
-              <button className="px-6 py-3 font-bold text-white bg-teal-500 rounded-lg mr-4 text-sm">Learn More</button>
+              <button className="px-6 py-3 font-bold hover:shadow-lg hover:bg-teal-500 hover:text-black border border-teal-500 duration-300 ease-in-out rounded-lg mr-4 text-sm">
+                Learn More
+                </button>
               </a>
             </div>
           </div>
