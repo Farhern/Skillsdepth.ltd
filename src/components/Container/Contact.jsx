@@ -53,7 +53,7 @@ const Contact = () => {
             <div className='md:flex items-center'>
                 <div className='mb-[40px] w-10 ml-3 sm:mb-0 md:w-1/2'>
                 <input 
-                     className="border-b-2 border-gray-600 sm:w-[150px] md:w-[140px] focus:border-teal-500 outline-none"
+                     className="border-b-2 border-gray-600 sm:w-[150px] md:w-[140px] lg:w-[250px] focus:border-teal-500 outline-none"
                      type='text'
                      name='name'
                      placeholder="First name" 
@@ -63,7 +63,7 @@ const Contact = () => {
 
                 <div class="w-10 ml-3 mt-6 md:m-2 md:w-1/2">
                    <input 
-                      className="border-b-2 border-gray-600 sm:w-[150px] md:w-[140px] focus:border-teal-500 outline-none"
+                      className="border-b-2 border-gray-600 sm:w-[150px] md:w-[140px] lg:w-[250px] focus:border-teal-500 outline-none"
                       type='text'
                      name='name' 
                       placeholder="Other name" 
@@ -75,14 +75,14 @@ const Contact = () => {
           <div className='md:flex mt-[60px]'>
             <div class="mb-[40px] sm:mb-[25px] w-10 ml-3 md:w-1/2">
                       <input 
-                         className="border-b-2 border-gray-600 sm:w-[150px] md:w-[140px] focus:border-teal-500 outline-none" 
+                         className="border-b-2 border-gray-600 sm:w-[150px] md:w-[140px] lg:w-[250px] focus:border-teal-500 outline-none" 
                          placeholder="Location" 
                          required 
                       />
                 </div>
                 <div class="w-10 ml-2 md:w-1/2">
                       <input 
-                         className="border-b-2 border-gray-600 sm:w-[150px] md:w-[140px] focus:border-teal-500 outline-none" 
+                         className="border-b-2 border-gray-600 sm:w-[150px] md:w-[140px] lg:w-[250px] focus:border-teal-500 outline-none" 
                          placeholder="Phone" 
                          required 
                       />
@@ -91,7 +91,7 @@ const Contact = () => {
             
               <br />
               <div className='mt-[50px] sm:mt-[10px]'>
-                  <div class="m-1 md:m-6">
+                  <div class="m-2 md:m-6">
                           <input 
                              className="border-b-2 w-full border-gray-600 focus:border-teal-500 outline-none" 
                              placeholder="Email" 
@@ -103,7 +103,7 @@ const Contact = () => {
 
               <br />
               <div className='mt-[40px] sm:mt-[30px]'>
-                  <div class="m-1 md:m-6">
+                  <div class="m-2 md:m-6">
                           <input 
                              className="border-b-2 w-full border-gray-600 focus:border-teal-500 outline-none"
                              type="text"
