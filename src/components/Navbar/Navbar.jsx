@@ -22,7 +22,7 @@ import { Outlet } from 'react-router-dom';
      <>
         <div
       className={`${
-        active ? "shadow-lg bg-gray-50" : ""
+        active ? "shadow-lg bg-white" : ""
       } fixed w-full top-0 left-0 z-20`}
     >
        <div>

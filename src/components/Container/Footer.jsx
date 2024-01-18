@@ -14,7 +14,7 @@ import {
 const Footer = () => {
   return (
         <div className='w-full h-[80vh] md:h-[350px] bg-teal-500' id='contact'>
-          <div  className='max-w-[1100px] mx-auto pt-7 md:flex items-center justify-between'>
+          <div  className='max-w-[1100px] mx-auto pt-7 pl-3 md:flex items-center justify-between'>
           
             <div className=''>
                 <h4><strong className='text-2xl'>General Contact</strong></h4>

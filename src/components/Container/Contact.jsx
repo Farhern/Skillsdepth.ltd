@@ -15,14 +15,14 @@ const Contact = () => {
         <div className=''>
           <div>
               <img 
-                className='w-[90px] h-[50px] ml-[100px] sm:ml-[200px] md:ml-[250px] mb-4'
+                className='w-[90px] h-[50px] ml-[100px] sm:ml-[200px] md:ml-[120px] lg:ml-[250px] mb-4'
                 src={map} 
                 alt="/" 
               />
               
                <p>
                    <iframe
-                   className='rounded-md max-w-[280px] sm:max-w-[320px] lg:max-w-[760px]'
+                   className='rounded-md max-w-[280px] sm:max-w-[330px] lg:max-w-[760px]'
                      src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15958.770623833729!2d39.6436569!3d-0.4547454!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x18204b5dc640f70f%3A0xe6754d0ccf40ee7!2shilac%20plaza!5e0!3m2!1sen!2ske!4v1703749371588!5m2!1sen!2ske"
                      width="600"
                      height="470"
@@ -40,7 +40,7 @@ const Contact = () => {
           
               <p>
                 <img  
-                  className='w-[90px] h-[50px] ml-[100px] sm:ml-[300px] md:ml-[250px] mb-2'
+                  className='w-[90px] h-[50px] ml-[100px] sm:ml-[140px] md:ml-[130px] lg:ml-[250px] mb-2'
                   src={envelope} 
                   alt="/" 
                 />
