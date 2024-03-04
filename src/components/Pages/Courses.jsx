@@ -18,7 +18,7 @@ const Courses = () => {
             </h3>
             <p className='leading-7 text-gray-500'>
                Whether you're a seasoned professional seeking to refine your expertise or 
-               a curious beginner embarking on a new journey, <span className='font-bold'>Skillsedge</span> has something for you. 
+               a curious beginner embarking on a new journey, <span className='font-bold'>Skillsdepth</span> has something for you. 
                Our courses are meticulously crafted by industry veterans, packed with practical insights, 
                and delivered in engaging formats that make learning a joy.
             </p>

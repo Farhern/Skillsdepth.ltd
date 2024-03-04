@@ -5,7 +5,7 @@ import MobileNavLinks from './MobileNavLinks';
 import NavLink from './NavLink';
 import { motion } from "framer-motion";
 // import logo from "../../assets/logo.jpg";
-import skillsedge2 from "../../assets/skillsedge2.png";
+import skilldepth from "../../assets/skilldepth.png";
 import { Outlet } from 'react-router-dom';
 
  const Navbar = () => {
@@ -38,7 +38,7 @@ import { Outlet } from 'react-router-dom';
              <div className='text-xl ml-7 cursor-pointer'>
                  <img 
                  className='w-20 h-10'
-                 src={skillsedge2} 
+                 src={skilldepth} 
                  alt="" 
                  />
              </div>

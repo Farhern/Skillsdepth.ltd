@@ -4,9 +4,9 @@ const Copyright = () => {
   return (
     <footer className="flex justify-center items-center py-4 text-black text-md border-t border-gray-800">
       <span className="flex items-center">
-        SKILLSEDGE &copy; {new Date().getFullYear()}.
+        SKILLSDEPTH &copy; {new Date().getFullYear()}.
         <span className="ml-2 font-normal">
-          Project from Skillsedge. All Rights Reserved.
+          Project from Skillsdepth. All Rights Reserved.
         </span>
       </span>
     </footer>
