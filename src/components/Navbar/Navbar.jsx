@@ -4,7 +4,6 @@ import { HiMenuAlt1, HiX } from "react-icons/hi";
 import MobileNavLinks from './MobileNavLinks';
 import NavLink from './NavLink';
 import { motion } from "framer-motion";
-// import logo from "../../assets/logo.jpg";
 import skilldepth from "../../assets/skilldepth.png";
 import { Outlet } from 'react-router-dom';
 

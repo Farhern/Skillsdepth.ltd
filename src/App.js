@@ -9,6 +9,7 @@ import Copyright from "./components/Container/Copyright";
 
 export default function App() {
   return (
+    <>
       <Routes>
         <Route path="/" element={<Navbar /> }>
           <Route path="/copyright" element={<Copyright />} />
@@ -19,6 +20,7 @@ export default function App() {
           <Route path="/courses" element={<Courses />} />
         </Route>
       </Routes>
+    </>
   );
 };
 
