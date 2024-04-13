@@ -20,12 +20,13 @@ const Contact = () => {
                 alt="/" 
               />
               
+              <div className='border-[3px] border-solid border-teal-500 rounded-lg overflow-hidden'>
                <p>
                    <iframe
-                     className='rounded-md max-w-[280px] sm:max-w-[330px] lg:max-w-[594px]'
+                     className='rounded-md max-w-[300px] sm:max-w-[338px] lg:max-w-[593px]'
                      src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15958.770623833729!2d39.6436569!3d-0.4547454!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x18204b5dc640f70f%3A0xe6754d0ccf40ee7!2shilac%20plaza!5e0!3m2!1sen!2ske!4v1703749371588!5m2!1sen!2ske"
                      width="600"
-                     height="470"
+                     height="477"
                      style={iframeStyle}
                      allowFullScreen=""
                      title="Google Maps"
@@ -33,21 +34,22 @@ const Contact = () => {
                      referrerPolicy="no-referrer-when-downgrade"
                      ></iframe>
                </p>
+               </div>
           </div>
         </div>
 
-        <div className='text-center rounded-md max-w-[280px] sm:max-w-[350px] lg:max-w-[760px]'>
+        <div className='text-center rounded-md max-w-[300px] sm:max-w-[350px] lg:max-w-[750px]'>
           
               <p>
                 <img  
-                  className='w-[90px] h-[50px] ml-[100px] sm:ml-[140px] md:ml-[130px] lg:ml-[250px] mb-2'
+                  className='w-[90px] h-[50px] ml-[100px] sm:ml-[140px] md:ml-[130px] lg:ml-[250px] mb-4'
                   src={envelope} 
                   alt="/" 
                 />
               </p>
           
           
-          <div className='text-center rounded-md shadow-xl shadow-gray-400'>
+          <div className='text-center rounded-md shadow-xl shadow-gray-400 border-[3px] border-solid border-teal-500'>
             <h4 className='font-semibold mb-4'>Send Us a message</h4>
             <form action='mailto:skillsedgetrainingltd@gmail.com' method='POST' encType='text/plain'>
             <div className='md:flex items-center'>
